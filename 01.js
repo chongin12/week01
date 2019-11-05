@@ -68,7 +68,7 @@ function bit_2_plus(a, b, C, res){
     if(b.length) {
         bpop=b.pop()
     } else {
-        bpop=b
+        bpop=false
     }
     var S_C = full_(apop, bpop, C);
     res.push(Number(S_C[0]));
